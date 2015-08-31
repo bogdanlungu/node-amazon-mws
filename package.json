@@ -1,0 +1,69 @@
+{
+  "name": "mws-sdk",
+  "description": "Amazon Marketplace Web Services client with support for all api calls.",
+  "keywords": [
+    "mws",
+    "amazon",
+    "marketplace",
+    "fba",
+    "sellers"
+  ],
+  "homepage": "http://_",
+  "version": "0.9.7",
+  "author": {
+    "name": "Eibbor Srenduas",
+    "email": "robbies@eibbors.net",
+    "url": "http://eibbors.net"
+  },
+  "contributors": [
+    {
+      "name": "Adrian Sanchezdelc",
+      "email": "adrian@ticadia.com"
+    },
+    {
+      "name": "David F. Sklar",
+      "email": "dfsklar@gmail.com"
+    }
+  ],
+  "main": "./lib/mws",
+  "directories": {
+    "lib": "./lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ticadia/mws-sdk.git"
+  },
+  "dependencies": {
+    "xml2js": "^0.4.9"
+  },
+  "devDependencies": {
+    "assert": "^1.3.0",
+    "mocha": "^2.2.5"
+  },
+  "scripts": {
+    "test": "mocha -t 5000"
+  },
+  "gitHead": "c3b0b5c1ee4bec80449ec64af5896c8f18b1ae97",
+  "bugs": {
+    "url": "https://github.com/ticadia/mws-sdk/issues"
+  },
+  "_id": "mws-sdk@0.9.7",
+  "_shasum": "ee81813b426b5e7d512f443e3349ea943209a953",
+  "_from": "mws-sdk@*",
+  "_npmVersion": "1.4.28",
+  "_npmUser": {
+    "name": "ecoqba",
+    "email": "qbanguy7@gmail.com"
+  },
+  "maintainers": [
+    {
+      "name": "ecoqba",
+      "email": "qbanguy7@gmail.com"
+    }
+  ],
+  "dist": {
+    "shasum": "ee81813b426b5e7d512f443e3349ea943209a953",
+    "tarball": "http://registry.npmjs.org/mws-sdk/-/mws-sdk-0.9.7.tgz"
+  },
+  "_resolved": "https://registry.npmjs.org/mws-sdk/-/mws-sdk-0.9.7.tgz"
+}
